@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>340749183729-mk6s8ignjkr6bjp734tihl8cg1g3obs5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.340749183729-mk6s8ignjkr6bjp734tihl8cg1g3obs5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB9q6bNugsjS9fAOOsvz553Gd9PKINm16M</string>
+	<key>GCM_SENDER_ID</key>
+	<string>340749183729</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.thekoon.FireBaseCarList1206</string>
+	<key>PROJECT_ID</key>
+	<string>fir-carlist1206</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fir-carlist1206.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:340749183729:ios:c3f1c12df15ca06ad45750</string>
+</dict>
+</plist>
