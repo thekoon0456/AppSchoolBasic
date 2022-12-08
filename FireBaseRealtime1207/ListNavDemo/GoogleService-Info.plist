@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>328706011004-cjkbdu6olj5meln7h09js5780rcv6k18.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.328706011004-cjkbdu6olj5meln7h09js5780rcv6k18</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDfjQjHk1vB4ZIixNfHjTBLeoCrACbV0YE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>328706011004</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.codelion.ListNavDemoLAB12</string>
+	<key>PROJECT_ID</key>
+	<string>evcar-edb70</string>
+	<key>STORAGE_BUCKET</key>
+	<string>evcar-edb70.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:328706011004:ios:95de4e09635c83a79cbef9</string>
+</dict>
+</plist>
