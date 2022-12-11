@@ -22,7 +22,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 
 @main
 struct TestDemoApp: App {
-    
+    //전체 생명주기동안 살아있을 변수 만듬, 뷰가 동일한 뷰모델에 엑세스하도록 environment로 contentview에 전달
     @StateObject var viewModel = AuthenticationViewModel()
     
   init() {
@@ -36,6 +36,7 @@ struct TestDemoApp: App {
   }
 }
 
+//호출하면 configure()기본 Firebase 앱이 구성됨. 내부에서 EllifitApp,인증을 설정하기 위한 초기화 프로그램을 만듬.
 extension TestDemoApp {
   private func setupAuthentication() {
     FirebaseApp.configure()

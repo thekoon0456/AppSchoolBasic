@@ -2,53 +2,19 @@
 //  LoginView.swift
 //  TestDemo
 //
-//  Created by 진준호 on 2022/12/08.
-//
-
-//import SwiftUI
-//
-//struct LoginView: View {
-//    @State private var id: String = ""
-//    @State private var pw: String = ""
-//
-//    var body: some View {
-//        NavigationStack {
-//            VStack {
-//                TextField("아이디를 입력해주세요", text: $id)
-//                    .font(.title2)
-//
-//                SecureField("비밀번호를 입력해주세요", text: $pw)
-//                    .font(.title2)
-//
-//                Button {
-//
-//                } label: {
-//                    Text("로그인")
-//                }
-//                .padding(.top, 10)
-//
-//                NavigationLink(destination: AuthView()) {
-//                    Text("회원가입하러 가기")
-//                }
-//                .padding(.top, 10)
-//            }
-//            .padding(.horizontal, 20)
-//        }
-//    }
-//}
 
 import SwiftUI
 
 struct LoginView: View {
 
-  // 1
+  // 1. EnvironmentObject: AuthenticationViewModel 객체를 수신하기 위한 환경 객체. 이렇게 하면 앱의 SwiftUI 수명 주기에 선언된 클래스의 한 인스턴스를 사용할 수 있음.
   @EnvironmentObject var viewModel: AuthenticationViewModel
 
   var body: some View {
     VStack {
       Spacer()
 
-      // 2
+      // 2. 로그인 뷰 구성
       Image("header_image")
         .resizable()
         .aspectRatio(contentMode: .fit)
@@ -66,7 +32,7 @@ struct LoginView: View {
 
       Spacer()
 
-      // 3
+      // 3. 로그린 버튼뷰 호출
       GoogleSignInButton()
         .padding()
         .onTapGesture {
